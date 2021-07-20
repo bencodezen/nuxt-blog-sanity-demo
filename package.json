@@ -11,18 +11,15 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@nuxtjs/sanity": "^0.9.4",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "sanity-plugin-content-calendar": "^1.1.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "eslint": "^7.29.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.12.1",
-    "prettier": "^2.3.2",
     "@sanity/base": "^2.13.1",
     "@sanity/components": "^2.13.0",
     "@sanity/core": "^2.13.1",
@@ -30,6 +27,11 @@
     "@sanity/default-login": "^2.13.1",
     "@sanity/desk-tool": "^2.13.1",
     "@sanity/vision": "^2.13.1",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "prettier": "^2.3.2",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0",
